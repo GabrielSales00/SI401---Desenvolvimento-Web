@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Jogo da Velha! </title>
+        <script src = "./main.js"> </script>
+        <link rel = "stylesheet" href = "./main.css"
+    </head>
+    <body>
+        <h1> Bem vindo! </h1>
+        <div class = "login">
+            <input id = "player1" type = "text">
+            <input id = "player2" type = "text">
+            <button onclick="start()">Entrar</button>
+        </div>
+
+        <div id = "game">
+            <div class = "board">
+                <div class = "cell" onclick="mark(this)"></div>
+                <div class = "cell" onclick="mark(this)"></div>
+                <div class = "cell" onclick="mark(this)"></div>
+                <div class = "cell" onclick="mark(this)"></div>
+                <div class = "cell" onclick="mark(this)"></div>
+                <div class = "cell" onclick="mark(this)"></div>
+                <div class = "cell" onclick="mark(this)"></div>
+                <div class = "cell" onclick="mark(this)"></div>
+                <div class = "cell" onclick="mark(this)"></div>
+            </div>
+        
+        </div>
+        <h2 class="currentPlayer"></h2>
+    </body>
+</html>
